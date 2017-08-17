@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <statements version="1.0" htmlParse="false">
-  <statement id="1">Ses beaux yeux</statement>
-  <statement id="2">Son corps d'athlete</statement>
-  <statement id="3">Son humour</statement>
-  <statement id="4">Sa capacité à faire fonctionner un qsort</statement>
+  <statement id="1">Un bon médecin pose un bon diagnostic.</statement>
+  <statement id="2">Un bon médecin tient compte des antécédents du patient.</statement>
+  <statement id="3">Un bon médecin apporte son soutien dans les difficultés sociales et administratives du patient.</statement>
+  <statement id="4">Un bon médecin réalise un examen clinique précis et minutieux.</statement>
+  <statement id="5">Un bon médecin est un professionnel honnête et intègre.</statement>
+  <statement id="6">Un bon médecin a une activité d’enseignement ou de recherche.</statement>
+  <statement id="7">Un bon médecin prescrit (si nécessaire) le traitement adapté.</statement>
+  <statement id="8">Un bon médecin respecte la confidentialité et le secret médical.</statement>
+  <statement id="9">Un bon médecin assume ses décisions et leurs conséquences.</statement>
+  <statement id="10">Un bon médecin a un bon réseau professionnel.</statement>
+  <statement id="11">Un bon médecin est capable de comprendre ce que ressent le patient et est à son écoute.</statement>
+  <statement id="12">Un bon médecin respecte les choix, les valeurs et les convictions du patient.</statement>
+  <statement id="13">Un bon médecin est disponible en cas de besoin, joignable par téléphone, a un délai rapide de RDV.</statement>
+  <statement id="14">Un bon médecin donne des explications claires et compréhensibles.</statement>
+  <statement id="15">Un bon médecin est aimable.</statement>
+  <statement id="16">Un bon médecin prend en compte les préférences du patient dans les décisions médicales.</statement>
 </statements>
