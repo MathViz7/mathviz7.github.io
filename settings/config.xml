@@ -48,16 +48,28 @@
       <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
       <item id="form">
          <label>Age*</label>
-         <note>Please enter your year of birth (YYYY, eg. 1980).</note>
+         <note>Quelle est votre année de naissance ? (Saisissez par exemple, 1980).</note>
          <input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-         <label>Gender*</label>
-         <note>Please select your gender.</note>
-         <input type="radio" required="true">female;male</input>
+         <label>Genre*</label>
+         <note>Sélectionnez votre genre.</note>
+         <input type="radio" required="true">Femme;Homme</input>
 
+         <label>Code postal*</label>
+         <note>Quel est votre code postal ? (Saisissez par exemple, 75001).</note>
+         <input type="text" required="true" maxlength="5" restricted="0-9"></input>
+         
          <label>Please answer the following questions.</label>
          <input type="rating2" required="false" scale="Yes;No;">There's a car in my household;I own a car for myself</input>
 
+         <label>Quel est le diplôme le plus élevé que vous ayez obtenu ?</label>
+         <input type="radio" required="true">Sans diplôme;Certificat de formation générale (CFG);
+            Certificat d'études primaires, Diplôme National du Brevet (BEPC ou Brevet des Collèges);
+            Certificat d'Aptitude Professionnelle (CAP); Brevet d'Etudes Professionnelles (BEP);
+            Baccalauréat ou diplôme équivalent;
+            BAC +2 ou BAC +3;BAC +4;BAC +5 ou plus;
+            Autres, précisez :</input>
+         
          <label>What kind of transportation do you use?</label>
          <input type="checkbox" required="false">Car;Railroad;Bike</input>
 
