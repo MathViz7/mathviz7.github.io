@@ -1,56 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-//
-// In order to translate HtmlQ or to customize the texts,
-// just change the text between the opening and the closing
-// tag. The attribute 'id' is the name of the variable
-// and must remain unchanged.
-//
-// You can use HTML-tags, but you have to braces instead
-// of the normal angle brackets, otherwise the import will fail.
-// Example: {b}bold{/b}
-//
-// If your are using German Umlauts and other special
-// characters, make sure, that you save this XML-file
-// as an UTF-8-document. White-space inbetween the
-// nodes are ignored. Any white-space within the text-
-// nodes, including leading or trailing whitespace and
-// line breaks, is preserved.
-//
-// ===================================================
-//
--->
-
 <language version="1.0" htmlParse="true">
 
   <!-- misc -->
-  <item id="btnContinue">Continue...</item>
-  <item id="btnclose">Close</item>
-  <item id="btnHelp">Help me!</item>
-  <item id="btnAgreement">Agree</item>
-  <item id="btnNeutral">Neutral</item>
-  <item id="btnDisagreement">Disagree</item>
-  <item id="btnTransfer">Submit data</item>
+  <item id="btnContinue">Continuer...</item>
+  <item id="btnclose">Fermer</item>
+  <item id="btnHelp">Aide</item>
+  <item id="btnAgreement">Important</item>
+  <item id="btnNeutral">Neutre</item>
+  <item id="btnDisagreement">Pas important</item>
+  <item id="btnTransfer">Envoyer les données</item>
   <item id="btnMail">Send via email</item>
   <item id="btnPrint">Print data</item>
   <item id="btnExit">Exit</item>
-  <item id="selectItem">Please select...</item>
+  <item id="selectItem">Veuillez sélectionner...</item>
 
   <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
   <item id="leaveSiteWarning">Your answers will be lost.</item>
 
   <!-- HtmlQ only: In-App Back Button -->
-  <item id="backButton">Back</item>
-  <item id="fillInRequiredFields">Please fill in all required fields.</item>
+  <item id="backButton">Précédent</item>
+  <item id="fillInRequiredFields">Veuillez remplir les.</item>
 
   <!-- errors -->
   <item id="errorHead">Error!</item>
   <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
 
   <!-- welcome screen (leave blank to skip screen) -->
-  <item id="welcomeHead">Bienvenu !</item>
-  <item id="welcomeText">Les reponses seront transmises à l'intéressé.</item>
+  <item id="welcomeHead">Cette étude vise à classer les qualités « d’un bon médecin » par ordre d’importance par les patients.
+</item>
+  <item id="welcomeText"> Ce questionnaire vous prendra environ 5 minutes.
+Il n’y a pas de bonnes ou mauvaises réponses.
+Ce questionnaire est anonyme : votre médecin n’aura pas accès à vos réponses.</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
@@ -61,16 +42,18 @@
   <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
   <!-- introduction (leave blank to skip popup) -->
-  <item id="introHead">Introduction</item>
-  <item id="introText">Nous souhaitons mieux comprendre votre affection pour Julien avec un Qsort. lol.</item>
+  <item id="introHead">Données personnelles</item>
+  <item id="introText">En poursuivant la navigation, j'accepte que mes données soient utilisées de façon anonyme à des fins de recherche clinique pour cette étude, par le Département de Médecine Générale de l’Université Paris Descartes.
+  Vous êtes libre de refuser de participer à cette étude ou de retirer votre consentement à tout moment. Conformément à la Loi Informatique et Liberté (loi n°78-17 du 6 janvier 1978 modifiée), vous pouvez exercer à tout moment votre droit d’accès, de rectification et de retrait des données vous concernant par une demande auprès de votre médecin-investigateur.
+</item>
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
-  <item id="step1Head">Etape 1 (2)</item>
-  <item id="step1Text">Lisez les affirmations suivantes avec attention et classez les.</item>
+  <item id="step1Head">Etape 1 (3)</item>
+  <item id="step1Text">Lisez les affirmations suivantes avec attention puis classez les.</item>
 
   <!-- step2: sorting (leave blank to skip popup) -->
-  <item id="step2Head">Etape 2 (5)</item>
-  <item id="step2Text">Placez les informations dans la pyramide.</item>
+  <item id="step2Head">Etape 2 (3)</item>
+  <item id="step2Text">Veuillez placer les informations dans la pyramide selon l'importance qu'elles ont pour vous.</item>
 
   <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
   <item id="step3Head">Step 3 of 5</item>
@@ -81,14 +64,14 @@
   <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+2" or "-2".{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
-  <item id="step5Head">Step 5 of 5</item>
-  <item id="step5Text">Finally, please answer the following questions regarding your background.{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step5Head">Etape 3 (3)</item>
+  <item id="step5Text">Merci de renseigner quelques informations quant à votre situation personnelle.</item>
 
   <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
-  <item id="transferHead">Submit Data</item>
-  <item id="transferText">You've finished the survey. Please submit your data now.</item>
-  <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
-  <item id="transferOk">Thank you for unsing FlashQ. We would appreciate if you could send us feeddback about this application (bugs, ideas, suggestion, etc.).{br}{br}Christian Hackert{br}{a href="http://www.hackert.biz/flashq" target="_blank"}{u}www.hackert.biz/flashq{/u}{/a}.{br}{br}You can now close your browser window.</item>
+  <item id="transferHead">Envoyer.</item>
+  <item id="transferText">Merci de votre participation. Veuillez envoyer vos données.</item>
+  <item id="transferFailed">Une erreur est survenue.</item>
+  <item id="transferOk">Merci d'avoir utilisé FlashQ. Auteur : Christian Hackert</item>
 
   <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
   <item id="mailHead">Submit Data</item>
