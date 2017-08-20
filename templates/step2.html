@@ -4,19 +4,19 @@
             <div class="grid">
                 <table>
                     <tr class="grid-heading">
-                        <td style="width: 960px;" colspan="{{ map.column.length }}">
+                        <td style="width: 1200;" colspan="{{ map.column.length }}">
                             <span style="float: left;" ng-bind-html="language.btnDisagreement"></span>
                             <span style="float: right; text-align: right;" ng-bind-html="language.btnAgreement"></span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="col-xs-1 rating" ng-repeat="col in map.column" ng-style="{'background-color': '#' + col._colour, width: 960/map.column.length}">
+                        <td class="col-xs-1 rating" ng-repeat="col in map.column" ng-style="{'background-color': '#' + col._colour, width: 1200/map.column.length}">
                             <b>{{ col._id }}</b>
                         </td>
                     </tr>
                     <tr>
-                        <td class="col-xs-1" ng-repeat="col in sortedStatements.grid" ng-style="{width: 960/map.column.length}">
-                            <div small-font="config.smallFont" swappable-droppable="cell" on-received-statement-from-categories="removeStatement($statement)" dynamically-create-initial-statement="true" ng-repeat="cell in col" class="cell" helper-width="{{ 960/map.column.length }}" ng-style="{height: cellHeight}" ng-class="{'small-font': (config.smallFont === 'true')}">
+                        <td class="col-xs-1" ng-repeat="col in sortedStatements.grid" ng-style="{width: 1200/map.column.length}">
+                            <div small-font="config.smallFont" swappable-droppable="cell" on-received-statement-from-categories="removeStatement($statement)" dynamically-create-initial-statement="true" ng-repeat="cell in col" class="cell" helper-width="{{ 960/map.column.length }}" ng-style="{height: 200px}" ng-class="{'small-font': (config.smallFont === 'true')}">
                             </div>
                         </td>
                     </tr>
