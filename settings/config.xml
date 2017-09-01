@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-   <config version="1.0" htmlParse="false">
-      <item id="studyTitle">Qu'est ce qu'un bon médecin ?</item>
-      <item id="textAlign">left</item>
-      <item id="shuffleCards">true</item>
+<config version="1.0" htmlParse="false">
+	<item id="studyTitle">Qu'est ce qu'un bon médecin ?</item>
+	<item id="textAlign">left</item>
+	<item id="shuffleCards">true</item>
 
-      <item id="loginrequired">false</item>
-      <item id="loginPassword"></item>
-      <item id="loginUrl"></item>
-      <item id="loginUrlMethod"></item>
+	<item id="loginrequired">false</item>
+	<item id="loginPassword"></item>
+	<item id="loginUrl"></item>
+	<item id="loginUrlMethod"></item>
 
-      <!-- activate/deactivate optional steps (true|false) -->
-      <item id="showStep3">false</item>
-      <item id="showStep4">false</item>
-      <item id="showStep5">true</item>
-      <item id="disableBackButton">true</item>
+	<!-- activate/deactivate optional steps (true|false) -->
+	<item id="showStep3">false</item>
+	<item id="showStep4">false</item>
+	<item id="showStep5">true</item>
+	<item id="disableBackButton">true</item>
 
-      <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
-      <!-- add label: <label>[STRING]</label> -->
-      <!-- add note: <note>[STRING]</note> -->
-      <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
-      <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
-      <item id="form">
-         <label>Age*</label>
-         <note>Quelle est votre année de naissance ? (Saisissez par exemple, 1980).</note>
-         <input type="text" required="true" maxlength="4" restricted="0-9"></input>
+	<!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+	<!-- add label: <label>[STRING]</label> -->
+	<!-- add note: <note>[STRING]</note> -->
+	<!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+	<!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+	<item id="form">
+		<label>Age*</label>
+		<note>Quelle est votre année de naissance ? (Saisissez par exemple, 1980).</note>
+		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-         <label>Genre*</label>
-         <note>Sélectionnez votre genre.</note>
-         <input type="radio" required="true">Femme;Homme</input>
+		<label>Genre*</label>
+		<note>Sélectionnez votre genre.</note>
+		<input type="radio" required="true">Femme;Homme</input>
 
-         <label>Code postal*</label>
-         <note>Quel est votre code postal ? (Saisissez par exemple, 75001).</note>
-         <input type="text" required="true" maxlength="5" restricted="0-9"></input>
+		<label>Code postal*</label>
+		<note>Quel est votre code postal ? (Saisissez par exemple, 75001).</note>
+		<input type="text" required="true" maxlength="5" restricted="0-9"></input>
 
-         <label>Quel est le diplôme le plus élevé que vous ayez obtenu ?</label>
-         <input type="radio" required="true">Sans diplôme;Certificat de formation générale (CFG);
-            Certificat d'études primaires, Diplôme National du Brevet (BEPC ou Brevet des Collèges);
-            Certificat d'Aptitude Professionnelle (CAP); Brevet d'Etudes Professionnelles (BEP);
-            Baccalauréat ou diplôme équivalent;
-            BAC +2 ou BAC +3;BAC +4;BAC +5 ou plus;
-            Autres
-          </input>
+		<label>Quel est le diplôme le plus élevé que vous ayez obtenu ?</label>
+		<input type="radio" required="true">Sans diplôme;Certificat de formation générale (CFG);
+			Certificat d'études primaires, Diplôme National du Brevet (BEPC ou Brevet des Collèges);
+			Certificat d'Aptitude Professionnelle (CAP); Brevet d'Etudes Professionnelles (BEP);
+			Baccalauréat ou diplôme équivalent;
+			BAC +2 ou BAC +3;BAC +4;BAC +5 ou plus;
+			Autres
+		</input>
 
-          <label>Si autre, précisez</label>
-          <input type="textarea" required="false"></input>
+		<label>Si autre, précisez</label>
+		<input type="textarea" required="false"></input>
 
-          <label>Avez vous une activité professionnelle ?</label>
-          <input type="radio" required="true">Oui;Non</input>
+		<label>Avez vous une activité professionnelle ?</label>
+		<input type="radio" required="true">Oui;Non</input>
 
-          <label>Si oui, laquelle</label>
-          <input type="textarea" required="false"></input>
-          <label>Si non, précisez (étudiant, chômeur, retraité...)</label>
-          <input type="textarea" required="false"></input>
-          <label>Si retraité, précisez la dernière profession exercée.</label>
-          <input type="textarea" required="false"></input>
+		<label>Si oui, laquelle</label>
+		<input type="textarea" required="false"></input>
+		<label>Si non, précisez (étudiant, chômeur, retraité...)</label>
+		<input type="textarea" required="false"></input>
+		<label>Si retraité, précisez la dernière profession exercée.</label>
+		<input type="textarea" required="false"></input>
 
-          <label>Concernant votre situation sociale actuelle, disposez-vous de : </label>
-          <input type="radio" required="true">Sécurité sociale et mutuelle;
-              CMUc ou AME;
-              Sécurité sociale seule;
-              ACS (aide complémentaire de santé);
-              Aucune;
-              Autre
-            </input>
+		<label>Concernant votre situation sociale actuelle, disposez-vous de : </label>
+		<input type="radio" required="true">Sécurité sociale et mutuelle;
+			CMUc ou AME;
+			Sécurité sociale seule;
+			ACS (aide complémentaire de santé);
+			Aucune;
+			Autre
+		</input>
 
-            <label>Si autre, précisez</label>
-            <input type="textarea" required="false"></input>
+		<label>Si autre, précisez</label>
+		<input type="textarea" required="false"></input>
 
-            <label>Bénéficiez-vous actuellement d'une prise en charge à 100% dans le cadre d'une affection de longue durée (ALD) ?</label>
-            <input type="radio" required="true">Oui;Non </input>
+		<label>Bénéficiez-vous actuellement d'une prise en charge à 100% dans le cadre d'une affection de longue durée (ALD) ?</label>
+		<input type="radio" required="true">Oui;Non </input>
 
-            <label>Présentez-vous un problème de santé chronique ?</label>
-            <note>Une maladie ou un problème de santé est chronique s’il nécessite un traitement ou une surveillance (consultations, médicaments, rééducation, surveillance, régime particulier...) depuis au moins 6 mois.</note>
-            <input type="radio" required="true">Oui;Non</input>
+		<label>Présentez-vous un problème de santé chronique ?</label>
+		<note>Une maladie ou un problème de santé est chronique s’il nécessite un traitement ou une surveillance (consultations, médicaments, rééducation, surveillance, régime particulier...) depuis au moins 6 mois.</note>
+		<input type="radio" required="true">Oui;Non</input>
 
-            <label>Si oui, précisez</label>
-            <input type="textarea" required="false"></input>
+		<label>Si oui, précisez</label>
+		<input type="textarea" required="false"></input>
 
-            <label>Avez-vous un médecin dans votre famille ?</label>
-            <input type="radio" required="true">Oui;Non </input>
+		<label>Avez-vous un médecin dans votre famille ?</label>
+		<input type="radio" required="true">Oui;Non </input>
 
-            <label>Si oui, précisez (frère, soeur, père, cousin...) : </label>
-            <input type="textarea" required="false"></input>
+		<label>Si oui, précisez (frère, soeur, père, cousin...) : </label>
+		<input type="textarea" required="false"></input>
 
-            <label>Avez-vous un médecin traitant déclaré ?</label>
-            <input type="radio" required="true">Oui;Non </input>
+		<label>Avez-vous un médecin traitant déclaré ?</label>
+		<input type="radio" required="true">Oui;Non </input>
 
-            <label>Depuis combien d'années ?</label>
-            <input type="text" required="true" maxlength="4" restricted="0-9"></input>
+		<label>Depuis combien d'années ?</label>
+		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-            <label>	Par an, combien de fois consultez-vous votre médecin ? </label>
-            <input type="radio" required="true">Aucune;
-                Moins d’une fois par an;
-                1-2 fois par an;
-                3-4 fois par an;>
-                plus de 4 fois par an
-            </input>
+		<label>	Par an, combien de fois consultez-vous votre médecin ? </label>
+		<input type="radio" required="true">Aucune;
+			Moins d’une fois par an;
+			1-2 fois par an;
+			3-4 fois par an;>
+			plus de 4 fois par an
+		</input>
 
-         <note bg="false">Les champs marqués d'une astérisque sont obligatoires.</note>
-      </item>
+		<note bg="false">Les champs marqués d'une astérisque sont obligatoires.</note>
+	</item>
 
-      <!-- URL for data transmission via POST/GET (leave blank if not required) -->
-      <item id="submitUrl">exe.php?do=save</item>
+	<!-- URL for data transmission via POST/GET (leave blank if not required) -->
+	<item id="submitUrl">exe.php?do=save</item>
 
-      <!-- request mode (post|get|firebase) -->
-      <item id="submitUrlMethod">firebase</item>
+	<!-- request mode (post|get|firebase) -->
+	<item id="submitUrlMethod">firebase</item>
 
-      <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
-      <item id="submitMail">yourdomain.com</item>
-   </config>
+	<!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+	<item id="submitMail">yourdomain.com</item>
+</config>
