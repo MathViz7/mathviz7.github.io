@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <language version="1.0" htmlParse="true">
-
-  <!-- misc -->
   <item id="btnContinue">Continuer...</item>
   <item id="btnclose">Fermer</item>
   <item id="btnHelp">Aide</item>
@@ -56,14 +54,14 @@ Ce questionnaire est anonyme : votre médecin n’aura pas accès à vos répons
   <item id="step2Text">Veuillez placer les informations dans la pyramide selon l'importance qu'elles ont pour vous.</item>
 
   <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
-  <item id="step3Head">Step 3 of 5</item>
-  <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and shift cards if you want to.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step3Head"></item>
+  <item id="step3Text"></item>
 
   <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
-  <item id="step4Head">Step 4 of 5</item>
-  <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+2" or "-2".{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step4Head"></item>
+  <item id="step4Text"></item>
 
-  <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <!-- step5: additional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
   <item id="step5Head">Etape 3 (3)</item>
   <item id="step5Text">Merci de renseigner quelques informations quant à votre situation personnelle.</item>
 

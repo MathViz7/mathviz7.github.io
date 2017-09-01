@@ -1,30 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
    <config version="1.0" htmlParse="false">
-
-      <!-- title of the study -->
       <item id="studyTitle">Qu'est ce qu'un bon médecin ?</item>
-
-      <!-- text-align property(left|right) -->
       <item id="textAlign">left</item>
-
-      <!-- shuffle cards (true|false)  -->
       <item id="shuffleCards">true</item>
 
-      <!-- login required (true|false) -->
       <item id="loginrequired">false</item>
-      <!-- login with common password (leave blank if not required) -->
       <item id="loginPassword"></item>
-      <!-- URL to individual login script(leave blank if not required) -->
       <item id="loginUrl"></item>
-      <!-- request mode (post|get) -->
       <item id="loginUrlMethod"></item>
 
       <!-- activate/deactivate optional steps (true|false) -->
       <item id="showStep3">false</item>
       <item id="showStep4">false</item>
       <item id="showStep5">true</item>
-      <!-- HtmlQ only: disable the in-window back button -->
       <item id="disableBackButton">true</item>
 
       <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
