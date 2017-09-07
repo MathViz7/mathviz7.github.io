@@ -54,8 +54,8 @@
 	<item id="welcomeText">Cette étude vise à classer les qualités « d’un bon médecin » par ordre d’importance.
 		Ce questionnaire vous prendra environ 5 minutes.
 		Il n’y a pas de bonnes ou mauvaises réponses.
-		Ce questionnaire est anonyme : votre médecin n’aura pas accès à vos réponses.
-		Cette étude est coordonnée par le Docteur Stéphanie SIDORKIEWICZ, sous l'égide du département de Médecine Générale de l'Université Paris Descartes.
+		Ce questionnaire est anonyme.
+		Cette étude est coordonnée par le Docteur Stéphanie SIDORKIEWICZ, stephanie.sidorkiewicz@parisdescartes.fr, sous l'égide du département de Médecine Générale de l'Université Paris Descartes.
 	</item>
 
 	<!-- user login, only displayed if access is restricted (see config-file) -->
@@ -68,9 +68,9 @@
 
 	<!-- introduction (leave blank to skip popup) -->
 	<item id="introHead">Consentement pour l'étude</item>
-	<item id="introText">En cliquant sur le bouton "continuer", j'accepte de participer à cette étude et que mes données soient utilisées de façon anonyme à des fins de recherche clinique pour cette étude, par le Département de Médecine Générale de l’Université Paris Descartes.
+	<item id="introText">En cliquant sur le bouton "continuer", vous acceptez de participer à cette étude et que vos données soient utilisées de façon anonyme à des fins de recherche clinique pour cette étude, par le Département de Médecine Générale de l’Université Paris Descartes.
 		Vous êtes libre de refuser de participer à cette étude ou de retirer votre consentement à tout moment.
-		Conformément à la Loi Informatique et Liberté (loi n°78-17 du 6 janvier 1978 modifiée), vous pouvez exercer à tout moment votre droit d’accès, de rectification et de retrait des données vous concernant par une demande auprès du médecin-investigateur de l'étude Dr. Stéphanie SIDORKIEWICZ. stephanie.sidorkiewicz@parisdescartes.fr
+		Conformément à la Loi Informatique et Liberté (loi n°78-17 du 6 janvier 1978 modifiée), vous pouvez exercer à tout moment votre droit d’accès, de rectification et de retrait des données vous concernant par une demande auprès du médecin-investigateur de l'étude Ségolène Mareuse segolene.mareuse@etu.parisdescartes.fr
 	</item>
 
 	<!-- step1: rough sorting into three piles (leave blank to skip popup)-->
