@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
 <language version="1.0" htmlParse="true">
+
+	<!-- misc -->
 	<item id="btnContinue">Continuer...</item>
 	<item id="btnclose">Fermer</item>
 	<item id="btnHelp">Aide</item>
@@ -25,13 +49,13 @@
 	<item id="errorWindowTooSmall">Veuillez maximiser la taille de la fenêtre pour profiter de l'application.</item>
 
 	<!-- welcome screen (leave blank to skip screen) -->
+	<!-- welcome screen (leave blank to skip screen) -->
 	<item id="welcomeHead">Etude "Good Doctor"</item>
 	<item id="welcomeText">Cette étude vise à classer les qualités « d’un bon médecin » par ordre d’importance par les patients.
 		Ce questionnaire vous prendra environ 5 minutes.
 		Il n’y a pas de bonnes ou mauvaises réponses.
 		Ce questionnaire est anonyme : votre médecin n’aura pas accès à vos réponses.
 		Cette étude est coordonnée par le Docteur Stéphanie SIDORKIEWICZ, stephanie.sidorkiewicz@parisdescartes.fr
-  		
 	</item>
 
 	<!-- user login, only displayed if access is restricted (see config-file) -->
@@ -58,13 +82,14 @@
 	<item id="step2Head">Etape 2/3 : hiérarchisation.</item>
 	<item id="step2Text">Veuillez placer les vignettes dans la pyramide selon l'importance qu'elles ont pour vous (-3 : le moins important, +3 : le plus important).</item>
 
+
 	<!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
-	<item id="step3Head"></item>
-	<item id="step3Text"></item>
+	<item id="step3Head">Step 3 of 5</item>
+	<item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and shift cards if you want to.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
 
 	<!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
-	<item id="step4Head"></item>
-	<item id="step4Text"></item>
+	<item id="step4Head">Step 4 of 5</item>
+	<item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+2" or "-2".{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
 
 	<!-- step5: additional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
 	<item id="step5Head">Etape 3/3 : questionnaire anonyme</item>
