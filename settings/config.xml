@@ -22,15 +22,15 @@
 	<!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
 	<!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
 	<item id="form">
-		<label>Age*</label>
+		<label>Age</label>
 		<note>Quelle est votre année de naissance ? (Saisissez par exemple, 1980).</note>
 		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-		<label>Genre*</label>
+		<label>Genre</label>
 		<note>Sélectionnez votre genre.</note>
 		<input type="radio" required="true">Femme;Homme</input>
 
-		<label>Département*</label>
+		<label>Département</label>
 		<note>Quel est votre département ? (Saisissez par exemple, 75).</note>
 		<input type="text" required="true" maxlength="2" restricted="0-9"></input>
 

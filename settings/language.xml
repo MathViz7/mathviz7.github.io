@@ -51,11 +51,11 @@
 	<!-- welcome screen (leave blank to skip screen) -->
 	<!-- welcome screen (leave blank to skip screen) -->
 	<item id="welcomeHead">Etude "Good Doctor"</item>
-	<item id="welcomeText">Cette étude vise à classer les qualités « d’un bon médecin » par ordre d’importance par les patients.
+	<item id="welcomeText">Cette étude vise à classer les qualités « d’un bon médecin » par ordre d’importance.
 		Ce questionnaire vous prendra environ 5 minutes.
 		Il n’y a pas de bonnes ou mauvaises réponses.
 		Ce questionnaire est anonyme : votre médecin n’aura pas accès à vos réponses.
-		Cette étude est coordonnée par le Docteur Stéphanie SIDORKIEWICZ, stephanie.sidorkiewicz@parisdescartes.fr
+		Cette étude est coordonnée par le Docteur Stéphanie SIDORKIEWICZ, sous l'égide du département de Médecine Générale de l'Université Paris Descartes.
 	</item>
 
 	<!-- user login, only displayed if access is restricted (see config-file) -->
@@ -68,7 +68,7 @@
 
 	<!-- introduction (leave blank to skip popup) -->
 	<item id="introHead">Consentement pour l'étude</item>
-	<item id="introText">En poursuivant la navigation, j'accepte que mes données soient utilisées de façon anonyme à des fins de recherche clinique pour cette étude, par le Département de Médecine Générale de l’Université Paris Descartes.
+	<item id="introText">En cliquant sur le bouton "continuer", j'accepte de participer à cette étude et que mes données soient utilisées de façon anonyme à des fins de recherche clinique pour cette étude, par le Département de Médecine Générale de l’Université Paris Descartes.
 		Vous êtes libre de refuser de participer à cette étude ou de retirer votre consentement à tout moment.
 		Conformément à la Loi Informatique et Liberté (loi n°78-17 du 6 janvier 1978 modifiée), vous pouvez exercer à tout moment votre droit d’accès, de rectification et de retrait des données vous concernant par une demande auprès du médecin-investigateur de l'étude Dr. Stéphanie SIDORKIEWICZ. stephanie.sidorkiewicz@parisdescartes.fr
 	</item>
@@ -80,7 +80,7 @@
 
 	<!-- step2: sorting (leave blank to skip popup) -->
 	<item id="step2Head">Etape 2/3 : hiérarchisation.</item>
-	<item id="step2Text">Veuillez placer les vignettes dans la pyramide selon l'importance qu'elles ont pour vous (-3 : le moins important, +3 : le plus important).</item>
+	<item id="step2Text">Veuillez placer les vignettes dans la pyramide selon l'importance qu'elles ont pour vous (-3 : le moins important, +3 : le plus important). Toute modification est possible tant que vous n'avez pas cliqué sur le bouton continuer.</item>
 
 
 	<!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
@@ -96,8 +96,8 @@
 	<item id="step5Text">Merci de répondre à ces questions concernant vos données médico-administratives. Celles-ci sont utilisées pour mieux décrire les participants de notre étude.</item>
 
 	<!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
-	<item id="transferHead">Envoyer.</item>
-	<item id="transferText">Merci de votre participation. Veuillez envoyer vos données.</item>
+	<item id="transferHead">Merci d'avoir participé à cette étude.</item>
+	<item id="transferText">Si vous souhaitez recevoir les résultas de l'étude vous pouvez écrire à l'investigateur de l'étude good.doctor.pv@gmail.com</item>
 	<item id="transferFailed">Une erreur est survenue.</item>
 	<item id="transferOk">Merci d'avoir utilisé FlashQ. Auteur : Christian Hackert</item>
 
