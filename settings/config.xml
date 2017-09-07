@@ -30,17 +30,17 @@
 		<note>Sélectionnez votre genre.</note>
 		<input type="radio" required="true">Femme;Homme</input>
 
-		<label>Code postal*</label>
-		<note>Quel est votre code postal ? (Saisissez par exemple, 75001).</note>
-		<input type="text" required="true" maxlength="5" restricted="0-9"></input>
+		<label>Département*</label>
+		<note>Quel est votre département ? (Saisissez par exemple, 75).</note>
+		<input type="text" required="true" maxlength="2" restricted="0-9"></input>
 
 		<label>Quel est le diplôme le plus élevé que vous ayez obtenu ?</label>
-		<input type="radio" required="true">Sans diplôme;Certificat de formation générale (CFG);
+		<input type="radio" required="true">Sans diplôme;Certificat de Formation Générale (CFG);
 			Certificat d'études primaires, Diplôme National du Brevet (BEPC ou Brevet des Collèges);
 			Certificat d'Aptitude Professionnelle (CAP); Brevet d'Etudes Professionnelles (BEP);
 			Baccalauréat ou diplôme équivalent;
 			BAC +2 ou BAC +3;BAC +4;BAC +5 ou plus;
-			Autres
+			Autre
 		</input>
 
 		<label>Si autre, précisez</label>
@@ -57,23 +57,25 @@
 		<input type="textarea" required="false"></input>
 
 		<label>Concernant votre situation sociale actuelle, disposez-vous de : </label>
-		<input type="radio" required="true">Sécurité sociale et mutuelle;
-			CMUc ou AME;
+		<input type="radio" required="true">			
 			Sécurité sociale seule;
-			ACS (aide complémentaire de santé);
+			Sécurité sociale et mutuelle;
+			CMUc (Couverture Maladie Universelle);
+			AME (Aide Médicale de l'Etat);
+			ACS (Aide Complémentaire de Santé);
 			Aucune;
 			Autre
 		</input>
 
-		<label>Si autre, précisez</label>
+		<label>Si autre, précisez:</label>
 		<input type="textarea" required="false"></input>
 
 		<label>Bénéficiez-vous actuellement d'une prise en charge à 100% dans le cadre d'une affection de longue durée (ALD) ?</label>
-		<input type="radio" required="true">Oui;Non </input>
+		<input type="radio" required="true">Oui;Non; Ne se prononce pas</input>
 
 		<label>Présentez-vous un problème de santé chronique ?</label>
 		<note>Une maladie ou un problème de santé est chronique s’il nécessite un traitement ou une surveillance (consultations, médicaments, rééducation, surveillance, régime particulier...) depuis au moins 6 mois.</note>
-		<input type="radio" required="true">Oui;Non</input>
+		<input type="radio" required="true">Oui;Non;Ne se prononce pas</input>
 
 		<label>Si oui, précisez</label>
 		<input type="textarea" required="false"></input>
@@ -81,24 +83,24 @@
 		<label>Avez-vous un médecin dans votre famille ?</label>
 		<input type="radio" required="true">Oui;Non </input>
 
-		<label>Si oui, précisez (frère, soeur, père, cousin...) : </label>
+		<label>Si oui, précisez le lien de parenté :</label>
 		<input type="textarea" required="false"></input>
 
 		<label>Avez-vous un médecin traitant déclaré ?</label>
 		<input type="radio" required="true">Oui;Non </input>
 
-		<label>Depuis combien d'années ?</label>
+		<label>Depuis combien d'années le consultez-vous ?</label>
 		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
 		<label>	Par an, combien de fois consultez-vous votre médecin ? </label>
 		<input type="radio" required="true">Aucune;
 			Moins d’une fois par an;
 			1-2 fois par an;
-			3-4 fois par an;>
-			plus de 4 fois par an
+			3-4 fois par an;
+			Plus de 4 fois par an
 		</input>
 
-		<note bg="false">Les champs marqués d'une astérisque sont obligatoires.</note>
+		<note bg="false">Tous les champs sont obligatoires.</note>
 	</item>
 
 	<!-- URL for data transmission via POST/GET (leave blank if not required) -->

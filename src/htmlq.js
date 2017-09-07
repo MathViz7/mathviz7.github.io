@@ -1,9 +1,3 @@
-/*
- HtmlQ v1.0.3
- (c) 2014-2015 aproxima Gesellschaft für Markt- und Sozialforschung Weimar http://github.com/aproxima/htmlq
- License: MIT
-*/
-
 function xml2json(xml) {
     var x2js = new X2JS();
     var json = x2js.xml_str2json(xml);
@@ -43,9 +37,6 @@ function getRatingForStatement(map, statement, sortedStatements) {
     }
 }
 
-//+ Jonas Raoni Soares Silva
-//@ http://jsfromhell.com/array/shuffle [v1.0]
-// http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array-in-javascript
 function shuffleInPlace(o) {
     for (var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x) {};
     return o;
