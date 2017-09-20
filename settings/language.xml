@@ -25,7 +25,7 @@
 <language version="1.0" htmlParse="true">
 
 	<!-- misc -->
-	<item id="btnContinue">Continuer...</item>
+	<item id="btnContinue">Valider</item>
 	<item id="btnclose">Fermer</item>
 	<item id="btnHelp">Aide</item>
 	<item id="btnAgreement">Important</item>
@@ -50,12 +50,11 @@
 
 	<!-- welcome screen (leave blank to skip screen) -->
 	<!-- welcome screen (leave blank to skip screen) -->
-	<item id="welcomeHead">Etude "Good Doctor"</item>
-	<item id="welcomeText">Cette étude vise à classer les qualités « d’un bon médecin » par ordre d’importance.
-		Ce questionnaire vous prendra environ 5 minutes.
-		Il n’y a pas de bonnes ou mauvaises réponses.
-		Ce questionnaire est anonyme.
-		Cette étude est coordonnée par le Docteur Stéphanie SIDORKIEWICZ, stephanie.sidorkiewicz@parisdescartes.fr, sous l'égide du département de Médecine Générale de l'Université Paris Descartes.
+	<item id="welcomeHead">Quelle vision du "bon médecin" en 2017 ?</item>
+	<item id="welcomeText">Cette étude vise à classer les qualités d’un "bon médecin" par ordre d’importance. {br} {br} Elle s'inscrit dans le cadre de ma thèse d'exercice et est coordonnée par les Drs. Stéphanie Sidorkiewicz, Nicolas de Chanaud (Département de Médecine Générale de l'Université Paris Descartes) et Anthony Chauvin (Service d'Accueil des Urgences, Hôpital Lariboisière). {br} {br}
+		Ce questionnaire est anonyme et vous prendra environ 5 minutes. {br} {br}
+		Il n’y a pas de bonnes ou mauvaises réponses. {br} {br}
+		Ségolène Mareuse, interne en Médecine Générale, Université Paris Descartes (segolene.mareuse@etu.parisdescartes.fr).
 	</item>
 
 	<!-- user login, only displayed if access is restricted (see config-file) -->
@@ -68,19 +67,18 @@
 
 	<!-- introduction (leave blank to skip popup) -->
 	<item id="introHead">Consentement pour l'étude</item>
-	<item id="introText">En cliquant sur le bouton "continuer", vous acceptez de participer à cette étude et que vos données soient utilisées de façon anonyme à des fins de recherche clinique pour cette étude, par le Département de Médecine Générale de l’Université Paris Descartes.
-		Vous êtes libre de refuser de participer à cette étude ou de retirer votre consentement à tout moment.
-		Conformément à la Loi Informatique et Liberté (loi n°78-17 du 6 janvier 1978 modifiée), vous pouvez exercer à tout moment votre droit d’accès, de rectification et de retrait des données vous concernant par une demande auprès du médecin-investigateur de l'étude Ségolène Mareuse segolene.mareuse@etu.parisdescartes.fr
+	<item id="introText">En cliquant sur le bouton "valider", vous acceptez de participer à cette étude et que vos données soient utilisées de façon anonyme à des fins de recherche clinique pour cette étude, par le Département de Médecine Générale de l’Université Paris Descartes.{br} {br} 
+		Vous êtes libre de refuser de participer à cette étude ou de retirer votre consentement à tout moment.{br} {br} 
+		Conformément à la Loi Informatique et Liberté (loi n°78-17 du 6 janvier 1978 modifiée), vous pouvez exercer à tout moment votre droit d’accès, de rectification et de retrait des données vous concernant par une demande auprès du médecin-investigateur de l'étude Ségolène Mareuse (segolene.mareuse@etu.parisdescartes.fr).
 	</item>
 
 	<!-- step1: rough sorting into three piles (leave blank to skip popup)-->
 	<item id="step1Head">Etape 1/3 : classification.</item>
-	<item id="step1Text">Veuillez lire les affirmations suivantes avec attention puis classez les par ordre d'importance (en faisant glisser les vignettes dans les cases correspondantes). Toute modification est possible tant que vous n'avez pas cliqué sur le bouton continuer.
-	</item>
+	<item id="step1Text">Veuillez lire les affirmations suivantes avec attention puis classez-les par ordre d'importance (en faisant glisser les vignettes dans les cases correspondantes).{br}{br} Vous pourrez modifier et affiner vos réponses lors de l'étape 2/3. </item>
 
 	<!-- step2: sorting (leave blank to skip popup) -->
 	<item id="step2Head">Etape 2/3 : hiérarchisation.</item>
-	<item id="step2Text">Veuillez placer les vignettes dans la pyramide selon l'importance qu'elles ont pour vous (-3 : le moins important, +3 : le plus important). Toute modification est possible tant que vous n'avez pas cliqué sur le bouton continuer.</item>
+	<item id="step2Text">Veuillez placer les vignettes dans la pyramide selon l'importance qu'elles ont pour vous (-3 : le moins important, +3 : le plus important). {br}{br} Toute modification est possible tant que vous n'avez pas cliqué sur le bouton "valider" situé sous la pyramide.</item>
 
 
 	<!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
@@ -93,11 +91,11 @@
 
 	<!-- step5: additional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
 	<item id="step5Head">Etape 3/3 : questionnaire anonyme</item>
-	<item id="step5Text">Merci de répondre à ces questions concernant vos données médico-administratives. Celles-ci sont utilisées pour mieux décrire les participants de notre étude.</item>
+	<item id="step5Text">Merci de répondre à ces questions concernant vos données médico-administratives. {br}{br} Celles-ci sont utilisées pour mieux décrire les participants de notre étude.</item>
 
 	<!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
 	<item id="transferHead">Finalisation du questionnaire</item>
-	<item id="transferText">Nous vous remercions d'avoir participé à cette étude et du temps que vous y avez consacré. Si vous souhaitez recevoir les résultas de l'étude vous pouvez écrire à l'investigateur de l'étude good.doctor.pv@gmail.com. En cliquant sur le bouton "envoyer" vous acceptez l'envoi et le traitement des données du questionnaire.</item>
+	<item id="transferText">Nous vous remercions d'avoir participé à cette étude et du temps que vous y avez consacré. {br}{br} Si vous souhaitez recevoir les résultas de l'étude vous pouvez écrire à l'investigateur de l'étude good.doctor.pv@gmail.com. {br}{br} En cliquant sur le bouton "envoyer" vous acceptez l'envoi et le traitement des données du questionnaire.</item>
 	<item id="transferFailed">Une erreur est survenue.</item>
 	<item id="transferOk">Merci d'avoir utilisé FlashQ. Auteur : Christian Hackert</item>
 

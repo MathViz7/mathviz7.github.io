@@ -22,13 +22,16 @@
 	<!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
 	<!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
 	<item id="form">
-		<label>Quelle est votre année de naissance ? (Saisissez par exemple, 1980).</label>
+		<label>Age</label>
+		<note>Quelle est votre année de naissance ? (Saisissez par exemple, 1980).</note>
 		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-		<label>Quel est votre genre ?</label>
+		<label>Genre</label>
+		<note>Sélectionnez votre genre.</note>
 		<input type="radio" required="true">Femme;Homme</input>
 
-		<label>Dans quel département habitez-vous ? (Saisissez par exemple, 94).</label>
+		<label>Département</label>
+		<note>Quel est votre département ? (Saisissez par exemple, 75).</note>
 		<input type="text" required="true" maxlength="2" restricted="0-9"></input>
 
 		<label>Quel est le diplôme le plus élevé que vous ayez obtenu ?</label>
@@ -40,19 +43,17 @@
 			Autre
 		</input>
 
-		<label>Si autre, précisez :</label>
+		<label>Si autre, précisez</label>
 		<input type="textarea" required="false"></input>
 
 		<label>Avez vous une activité professionnelle ?</label>
 		<input type="radio" required="true">Oui;Non</input>
 
-		<label>Si oui, précisez :</label>
+		<label>Si oui, laquelle</label>
 		<input type="textarea" required="false"></input>
-		
-		<label>Si non, précisez (étudiant, chômeur, retraité...) :</label>
+		<label>Si non, précisez (étudiant, chômeur, retraité...)</label>
 		<input type="textarea" required="false"></input>
-		
-		<label>Si retraité, précisez la dernière profession exercée :</label>
+		<label>Si retraité, précisez la dernière profession exercée.</label>
 		<input type="textarea" required="false"></input>
 
 		<label>Concernant votre situation sociale actuelle, disposez-vous de : </label>
@@ -66,7 +67,7 @@
 			Autre
 		</input>
 
-		<label>Si autre, précisez :</label>
+		<label>Si autre, précisez:</label>
 		<input type="textarea" required="false"></input>
 
 		<label>Bénéficiez-vous actuellement d'une prise en charge à 100% dans le cadre d'une affection de longue durée (ALD) ?</label>
@@ -76,7 +77,7 @@
 		<note>Une maladie ou un problème de santé est chronique s’il nécessite un traitement ou une surveillance (consultations, médicaments, rééducation, surveillance, régime particulier...) depuis au moins 6 mois.</note>
 		<input type="radio" required="true">Oui;Non;Ne se prononce pas</input>
 
-		<label>Si oui, précisez :</label>
+		<label>Si oui, précisez</label>
 		<input type="textarea" required="false"></input>
 
 		<label>Avez-vous un médecin dans votre famille ?</label>
