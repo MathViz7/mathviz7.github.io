@@ -95,7 +95,7 @@
 
 	<!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
 	<item id="transferHead">Finalisation du questionnaire</item>
-	<item id="transferText">Nous vous remercions d'avoir participé à cette étude et du temps que vous y avez consacré. {br}{br} Si vous souhaitez recevoir les résultas de l'étude vous pouvez écrire à l'investigateur de l'étude good.doctor.pv@gmail.com. {br}{br} En cliquant sur le bouton "envoyer" vous acceptez l'envoi et le traitement des données du questionnaire.</item>
+	<item id="transferText">Nous vous remercions d'avoir participé à cette étude et du temps que vous y avez consacré. {br}{br} Si vous souhaitez recevoir les résultas de l'étude vous pouvez écrire à l'investigateur de l'étude vision.bon.medecin@gmail.com. {br}{br} En cliquant sur le bouton "envoyer" vous acceptez l'envoi et le traitement des données du questionnaire.</item>
 	<item id="transferFailed">Une erreur est survenue.</item>
 	<item id="transferOk">Merci d'avoir utilisé FlashQ. Auteur : Christian Hackert</item>
 
