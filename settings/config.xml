@@ -99,15 +99,29 @@
 			Plus de 4 fois par an
 		</input>
 
-		<note bg="false">Tous les champs sont obligatoires.</note>
-	</item>
 
-	<!-- URL for data transmission via POST/GET (leave blank if not required) -->
-	<item id="submitUrl">exe.php?do=save</item>
+    <label>Comment avez-vous eu connaissance de cette étude ?</label>
+		<input type="radio" required="true">
+      Dans un cabinet de médecine générale, un jour où vous êtes venu(e) consulter votre médecin;
+      A l'hôpital, alors que vous étiez hospitalisé(e);
+      A l'hôpital, alors qu'un(e) de vos proches était hospitalisé(e);
+      Par un proche ou un(e) ami(e) qui vous a invité(e) à participer à l'étude;
+      Autre
+    </input>
+    
+    <label>Si autre, précisez :</label>
+		<input type="textarea" required="false"></input>
 
-	<!-- request mode (post|get|firebase) -->
-	<item id="submitUrlMethod">firebase</item>
 
-	<!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
-	<item id="submitMail">yourdomain.com</item>
+    <note bg="false">Tous les champs sont obligatoires.</note>
+  </item>
+
+<!-- URL for data transmission via POST/GET (leave blank if not required) -->
+  <item id="submitUrl">exe.php?do=save</item>
+
+  <!-- request mode (post|get|firebase) -->
+  <item id="submitUrlMethod">firebase</item>
+
+  <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+  <item id="submitMail">yourdomain.com</item>
 </config>
