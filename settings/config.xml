@@ -88,7 +88,7 @@
 		<label>Avez-vous un médecin traitant déclaré ?</label>
 		<input type="radio" required="true">Oui;Non </input>
 
-		<label>Depuis combien d'années le consultez-vous ?</label>
+		<label>Depuis combien d'années le consultez-vous ? (0 si vous n'en avez pas)</label>
 		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
 		<label>	Par an, combien de fois consultez-vous votre médecin ? </label>
