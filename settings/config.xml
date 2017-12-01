@@ -22,7 +22,7 @@
 	<!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
 	<!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
 	<item id="form">
-		<label>Quelle est votre année de naissance ? (Saisissez par exemple, 1980).</label>
+		<label>Quelle est votre année de naissance ? (Saisissez par exemple, 1980)</label>
 		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
 		<label>Quel est votre genre ?</label>
@@ -43,7 +43,7 @@
 		<label>Si autre, précisez :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Avez vous une activité professionnelle ?</label>
+		<label>Avez-vous une activité professionnelle ?</label>
 		<input type="radio" required="true">Oui;Non</input>
 
 		<label>Si oui, précisez :</label>
@@ -73,7 +73,7 @@
 		<input type="radio" required="true">Oui;Non; Ne se prononce pas</input>
 
 		<label>Présentez-vous un problème de santé chronique ?</label>
-		<note>Une maladie ou un problème de santé est chronique s’il nécessite un traitement ou une surveillance (consultations, médicaments, rééducation, surveillance, régime particulier...) depuis au moins 6 mois.</note>
+		<note>Une maladie ou un problème de santé est chronique s’il nécessite un traitement ou une surveillance (consultations, médicaments, rééducation, régime particulier...) depuis au moins 6 mois.</note>
 		<input type="radio" required="true">Oui;Non;Ne se prononce pas</input>
 
 		<label>Si oui, précisez :</label>
@@ -89,9 +89,14 @@
 		<input type="radio" required="true">Oui;Non </input>
 
 		<label>Depuis combien d'années le consultez-vous ?</label>
-		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
+		<input type="radio" required="true">0;
+			0-2 ans;
+			3-5 ans;
+			6-10 ans;
+			Plus de 10 ans
+		</input>
 
-		<label>	Par an, combien de fois consultez-vous votre médecin ? </label>
+		<label>Par an, combien de fois consultez-vous votre médecin ? </label>
 		<input type="radio" required="true">Aucune;
 			Moins d’une fois par an;
 			1-2 fois par an;
