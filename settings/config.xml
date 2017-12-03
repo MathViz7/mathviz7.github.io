@@ -48,10 +48,10 @@
 
 		<label>Si oui, précisez :</label>
 		<input type="textarea" required="false"></input>
-		
+
 		<label>Si non, précisez (étudiant, chômeur, retraité...) :</label>
 		<input type="textarea" required="false"></input>
-		
+
 		<label>Si retraité, précisez la dernière profession exercée :</label>
 		<input type="textarea" required="false"></input>
 
@@ -88,7 +88,7 @@
 		<label>Avez-vous un médecin traitant déclaré ?</label>
 		<input type="radio" required="true">Oui;Non </input>
 
-		<label>Depuis combien d'années le consultez-vous ?</label>
+		<label>Depuis combien d'années le consultez-vous ? (cochez 0 si vous n'en avez pas)</label>
 		<input type="radio" required="true">0;
 			0-2 ans;
 			3-5 ans;
@@ -96,7 +96,7 @@
 			Plus de 10 ans
 		</input>
 
-		<label>Par an, combien de fois consultez-vous votre médecin ? </label>
+		<label>Par an, combien de fois consultez-vous votre médecin ? (cochez 0 si vous n'en avez pas)</label>
 		<input type="radio" required="true">Aucune;
 			Moins d’une fois par an;
 			1-2 fois par an;
@@ -105,21 +105,21 @@
 		</input>
 
 
-    <label>Comment avez-vous eu connaissance de cette étude ?</label>
+		<label>Comment avez-vous eu connaissance de cette étude ?</label>
 		<input type="radio" required="true">
-      Dans un cabinet de médecine générale, un jour où vous êtes venu(e) consulter votre médecin;
-      A l'hôpital, alors que vous étiez hospitalisé(e);
-      A l'hôpital, alors qu'un(e) de vos proches était hospitalisé(e);
-      Par un proche ou un(e) ami(e) qui vous a invité(e) à participer à l'étude;
-      Autre
-    </input>
-    
-    <label>Si autre, précisez :</label>
+			Dans un cabinet de médecine générale, un jour où vous êtes venu(e) consulter votre médecin;
+			A l'hôpital, alors que vous étiez hospitalisé(e);
+			A l'hôpital, alors qu'un(e) de vos proches était hospitalisé(e);
+			Par un proche ou un(e) ami(e) qui vous a invité(e) à participer à l'étude;
+			Autre
+		</input>
+
+		<label>Si autre, précisez :</label>
 		<input type="textarea" required="false"></input>
 
 
-    <note bg="false">Tous les champs sont obligatoires.</note>
-  </item>
+		<note bg="false">Tous les champs sont obligatoires.</note>
+	</item>
 
 <!-- URL for data transmission via POST/GET (leave blank if not required) -->
   <item id="submitUrl">exe.php?do=save</item>

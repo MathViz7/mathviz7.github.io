@@ -50,7 +50,7 @@
 
 	<!-- welcome screen (leave blank to skip screen) -->
 	<!-- welcome screen (leave blank to skip screen) -->
-	<item id="welcomeHead">Quelle vision du "bon médecin" en 2017 ?</item>
+	<item id="welcomeHead">Quelle vision du "bon médecin" en 2018 ?</item>
 	<item id="welcomeText">Cette étude vise à classer les qualités d’un "bon médecin" par ordre d’importance. {br} {br} Elle s'inscrit dans le cadre de ma thèse d'exercice et est coordonnée par les Drs. Stéphanie Sidorkiewicz, Nicolas de Chanaud (Département de Médecine Générale de l'Université Paris Descartes) et Anthony Chauvin (Service d'Accueil des Urgences, Hôpital Lariboisière). {br} {br}
 		Ce questionnaire est anonyme et vous prendra environ 5 minutes. {br} {br}
 		Il n’y a pas de bonnes ou mauvaises réponses. {br} {br}
