@@ -22,16 +22,16 @@
 	<!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
 	<!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
 	<item id="form">
-		<label>Quelle est votre année de naissance ? (Saisissez par exemple, 1980)</label>
+		<label>1. Quelle est votre année de naissance ? (Saisissez par exemple, 1980)</label>
 		<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-		<label>Quel est votre genre ?</label>
+		<label>2. Quel est votre genre ?</label>
 		<input type="radio" required="true">Femme;Homme</input>
 
-		<label>Dans quel département habitez-vous ? (Saisissez par exemple, 94).</label>
+		<label>3. Dans quel département habitez-vous ? (Saisissez par exemple, 94).</label>
 		<input type="text" required="true" maxlength="2" restricted="0-9"></input>
 
-		<label>Quel est le diplôme le plus élevé que vous ayez obtenu ?</label>
+		<label>4. Quel est le diplôme le plus élevé que vous ayez obtenu ?</label>
 		<input type="radio" required="true">Sans diplôme;Certificat de Formation Générale (CFG);
 			Certificat d'études primaires, Diplôme National du Brevet (BEPC ou Brevet des Collèges);
 			Certificat d'Aptitude Professionnelle (CAP); Brevet d'Etudes Professionnelles (BEP);
@@ -40,22 +40,22 @@
 			Autre
 		</input>
 
-		<label>Si autre, précisez :</label>
+		<label>5. Si autre, précisez :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Avez-vous une activité professionnelle ?</label>
+		<label>6. Avez-vous une activité professionnelle ?</label>
 		<input type="radio" required="true">Oui;Non</input>
 
-		<label>Si oui, précisez :</label>
+		<label>7. Si oui, précisez :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Si non, précisez (étudiant, chômeur, retraité...) :</label>
+		<label>8. Si non, précisez (étudiant, chômeur, retraité...) :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Si retraité, précisez la dernière profession exercée :</label>
+		<label>9. Si retraité, précisez la dernière profession exercée :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Concernant votre situation sociale actuelle, disposez-vous de : </label>
+		<label>10. Concernant votre situation sociale actuelle, disposez-vous de : </label>
 		<input type="radio" required="true">			
 			Sécurité sociale seule;
 			Sécurité sociale et mutuelle;
@@ -66,38 +66,40 @@
 			Autre
 		</input>
 
-		<label>Si autre, précisez :</label>
+		<label>11. Si autre, précisez :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Bénéficiez-vous actuellement d'une prise en charge à 100% dans le cadre d'une affection de longue durée (ALD) ?</label>
+		<label>12. Bénéficiez-vous actuellement d'une prise en charge à 100% dans le cadre d'une affection de longue durée (ALD) ?</label>
 		<input type="radio" required="true">Oui;Non; Ne se prononce pas</input>
 
-		<label>Présentez-vous un problème de santé chronique ?</label>
+		<label>13. Présentez-vous un problème de santé chronique ?</label>
 		<note>Une maladie ou un problème de santé est chronique s’il nécessite un traitement ou une surveillance (consultations, médicaments, rééducation, régime particulier...) depuis au moins 6 mois.</note>
 		<input type="radio" required="true">Oui;Non;Ne se prononce pas</input>
 
-		<label>Si oui, précisez :</label>
+		<label>14. Si oui, précisez :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Avez-vous un médecin dans votre famille ?</label>
+		<label>15. Avez-vous un médecin dans votre famille ?</label>
 		<input type="radio" required="true">Oui;Non </input>
 
-		<label>Si oui, précisez le lien de parenté :</label>
+		<label>16. Si oui, précisez le lien de parenté :</label>
 		<input type="textarea" required="false"></input>
 
-		<label>Avez-vous un médecin traitant déclaré ?</label>
+		<label>17. Avez-vous un médecin traitant déclaré ?</label>
 		<input type="radio" required="true">Oui;Non </input>
 
-		<label>Depuis combien d'années le consultez-vous ? (cochez 0 si vous n'en avez pas)</label>
-		<input type="radio" required="true">0;
+		<label>18. Depuis combien d'années le consultez-vous ?</label>
+		<input type="radio" required="true">Je n'ai pas de médecin traitant;
+			0;
 			0-2 ans;
 			3-5 ans;
 			6-10 ans;
 			Plus de 10 ans
 		</input>
 
-		<label>Par an, combien de fois consultez-vous votre médecin ? (cochez 0 si vous n'en avez pas)</label>
-		<input type="radio" required="true">Aucune;
+		<label>19. Par an, combien de fois consultez-vous votre médecin ?</label>
+		<input type="radio" required="true">Je n'ai pas de médecin traitant;
+			Aucune;
 			Moins d’une fois par an;
 			1-2 fois par an;
 			3-4 fois par an;
@@ -105,16 +107,15 @@
 		</input>
 
 
-		<label>Comment avez-vous eu connaissance de cette étude ?</label>
-		<input type="radio" required="true">
-			Dans un cabinet de médecine générale, un jour où vous êtes venu(e) consulter votre médecin;
+		<label>20. Comment avez-vous eu connaissance de cette étude ?</label>
+		<input type="radio" required="true">Dans un cabinet de médecine générale, un jour où vous êtes venu(e) consulter votre médecin;
 			A l'hôpital, alors que vous étiez hospitalisé(e);
 			A l'hôpital, alors qu'un(e) de vos proches était hospitalisé(e);
 			Par un proche ou un(e) ami(e) qui vous a invité(e) à participer à l'étude;
 			Autre
 		</input>
 
-		<label>Si autre, précisez :</label>
+		<label>21. Si autre, précisez :</label>
 		<input type="textarea" required="false"></input>
 
 
