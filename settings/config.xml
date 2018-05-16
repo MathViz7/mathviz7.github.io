@@ -90,7 +90,6 @@
 
 		<label>18. Depuis combien d'années le consultez-vous ?</label>
 		<input type="radio" required="true">Je n'ai pas de médecin traitant;
-			0;
 			0-2 ans;
 			3-5 ans;
 			6-10 ans;
