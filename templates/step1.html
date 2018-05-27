@@ -1,5 +1,5 @@
 <div id="step1" track-duration="duration[0]">
-	<h2 align="center">Un bon médecin...</h2>
+	<h2 align="center">Un bon médecin généraliste...</h2>
 	
 	<div id="statements" style="width: 300px; margin: 0 auto; overflow: visible;">
         <div ng-repeat="statement in sortedStatements.list | filter:hasNoCategory | limitTo: 1" class="draggable" draggable-statement-first="statement" ng-class="{textright: textAlignRight}"> <!--<b>({{ statement._id }})</b>--> <span ng-bind-html="statement.__text"></span></div>

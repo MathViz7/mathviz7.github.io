@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <config version="1.0" htmlParse="false">
-	<item id="studyTitle">Qu'est ce qu'un bon médecin ?</item>
+	<item id="studyTitle">Qu'est ce qu'un bon médecin généraliste ?</item>
 	<item id="textAlign">left</item>
 	<item id="shuffleCards">true</item>
 

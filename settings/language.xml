@@ -50,9 +50,9 @@
 
 	<!-- welcome screen (leave blank to skip screen) -->
 	<!-- welcome screen (leave blank to skip screen) -->
-	<item id="welcomeHead">Quelle vision du "bon médecin" en 2018 ?</item>
-	<item id="welcomeText">Cette étude vise à classer les qualités d’un "bon médecin" par ordre d’importance. {br} {br} Elle s'inscrit dans le cadre de ma thèse d'exercice et est coordonnée par les Drs. Stéphanie Sidorkiewicz, Nicolas de Chanaud (Département de Médecine Générale de l'Université Paris Descartes) et Anthony Chauvin (Service d'Accueil des Urgences, Hôpital Lariboisière). {br} {br}
-		Ce questionnaire est anonyme et vous prendra environ 5 minutes. {br} {br}
+	<item id="welcomeHead">Quelle vision du "bon médecin généraliste" en 2018 ?</item>
+	<item id="welcomeText">Cette étude vise à classer les qualités d’un "bon médecin généraliste" par ordre d’importance. {br} {br} Elle s'inscrit dans le cadre de ma thèse d'exercice et est coordonnée par les Drs. Stéphanie Sidorkiewicz, Nicolas de Chanaud (Département de Médecine Générale de l'Université Paris Descartes) et Anthony Chauvin (Service d'Accueil des Urgences, Hôpital Lariboisière). {br} {br}
+		Ce questionnaire est anonyme et vous prendra environ 10 minutes. {br} {br}
 		Il n’y a pas de bonnes ou mauvaises réponses. {br} {br}
 		Ségolène Mareuse, interne en Médecine Générale, Université Paris Descartes (segolene.mareuse@etu.parisdescartes.fr).
 	</item>
@@ -95,7 +95,7 @@
 
 	<!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
 	<item id="transferHead">Finalisation du questionnaire</item>
-	<item id="transferText">Nous vous remercions d'avoir participé à cette étude et du temps que vous y avez consacré. {br}{br} Si vous souhaitez recevoir les résultas de l'étude vous pouvez écrire à l'investigateur de l'étude vision.bon.medecin@gmail.com. {br}{br} En cliquant sur le bouton "envoyer" vous acceptez l'envoi et le traitement des données du questionnaire.</item>
+	<item id="transferText">Nous vous remercions d'avoir participé à cette étude et du temps que vous y avez consacré. {br}{br} Si vous souhaitez recevoir les résultats de l'étude vous pouvez écrire à l'investigateur de l'étude vision.bon.medecin@gmail.com. {br}{br} En cliquant sur le bouton "envoyer" vous acceptez l'envoi et le traitement des données du questionnaire.</item>
 	<item id="transferFailed">Une erreur est survenue.</item>
 	<item id="transferOk">Merci d'avoir utilisé FlashQ. Auteur : Christian Hackert</item>
 
